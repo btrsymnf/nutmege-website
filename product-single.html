@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>NUTMEGÉ</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" href="css/ionicons.min.css">
+	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
+	<link rel="stylesheet" href="css/jquery.timepicker.css">
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/style.css">
+	<style>
+		.product-img {
+			height: 590px;
+			object-fit: cover;
+			border-radius: 10px;
+		}
+
+		.carousel-control-prev-icon,
+		.carousel-control-next-icon {
+			background-color: rgba(0, 0, 0, 0.6);
+			border-radius: 50%;
+			padding: 20px;
+		}
+
+		.quantity-left-minus,
+		.quantity-right-plus {
+			width: 35px;
+			height: 35px;
+		}
+
+		.input-number {
+			width: 60px;
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body class="goto-here">
+
+	<div class="py-1 bg-primary">
+		<div class="container">
+			<div class="row no-gutters d-flex align-items-start align-items-center px-md-0">
+				<div class="col-lg-12 d-block">
+					<div class="row d-flex">
+						<div class="col-md pr-4 d-flex topper align-items-center">
+							<div class="icon mr-2 d-flex justify-content-center align-items-center"><span
+									class="icon-phone2"></span></div>
+							<span class="text">+60 12-345 6789</span>
+						</div>
+						<div class="col-md pr-4 d-flex topper align-items-center">
+							<div class="icon mr-2 d-flex justify-content-center align-items-center"><span
+									class="icon-paper-plane"></span></div>
+							<span class="text">nutmege@gmail.com</span>
+						</div>
+						<div class="col-md-5 pr-4 d-flex topper align-items-center text-lg-right">
+							<span class="text">3-5 Business days delivery &amp; Free Returns</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+		<div class="container">
+			<!-- Logo -->
+			<a class="navbar-brand d-flex align-items-center" href="index.html">
+				<img src="image/logo.png" alt="Logo" style="height: 40px; margin-right: 8px;">
+				<span style="color: #CA1826; font-weight: bold;">NUTMEGÉ</span>
+			</a>
+
+			<!-- Toggler for mobile -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+				aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<!-- Navbar links -->
+			<div class="collapse navbar-collapse" id="navbarContent">
+				<ul class="navbar-nav ml-auto align-items-lg-center">
+
+					<li class="nav-item">
+						<a class="nav-link text-dark" href="index.html">Home</a>
+					</li>
+
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle text-dark" href="#" id="shopDropdown" role="button"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Shop
+						</a>
+						<div class="dropdown-menu shadow border-0" aria-labelledby="shopDropdown">
+							<a class="dropdown-item" href="shop.html">Shop</a>
+							<a class="dropdown-item" href="wishlist.html">Wishlist</a>
+							<a class="dropdown-item" href="checkout.html">Checkout</a>
+						</div>
+					</li>
+
+					<!-- Catalog -->
+					<li class="nav-item">
+						<a class="nav-link text-dark"
+							href="https://online.fliphtml5.com/fzves/NUTMEGE-CATELOG-NEW-ITSN/" target="_blank"
+							rel="noopener">
+							Catalog
+						</a>
+					</li>
+
+					<!-- About Dropdown -->
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle text-dark" href="about.html" id="aboutDropdown" role="button"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							About
+						</a>
+						<div class="dropdown-menu shadow border-0" aria-labelledby="aboutDropdown">
+							<a class="dropdown-item" href="about.html">About Us</a>
+							<a class="dropdown-item" href="blog.html">Blog</a>
+							<a class="dropdown-item" href="contact.html">Contact</a>
+						</div>
+					</li>
+
+					<li class="nav-item">
+						<a href="cart.html" class="btn btn-primary ml-lg-3 d-flex align-items-center"
+							style="background-color:#CA1826; color: #fff; border:none;">
+							<span class="icon-shopping_cart mr-1"></span>[0]
+						</a>
+					</li>
+
+				</ul>
+			</div>
+	</nav>
+
+	<section class="ftco-section mt-5" style="padding-top:0; margin-top:0;">
+		<div class="container">
+			<div class="row">
+				<!-- LEFT: Image Slider -->
+				<div class="col-lg-6 mb-5">
+					<div id="productSlider" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators" id="carousel-indicators"></ol>
+						<div class="carousel-inner" id="carousel-inner"></div>
+						<a class="carousel-control-prev" href="#productSlider" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon"></span>
+						</a>
+						<a class="carousel-control-next" href="#productSlider" role="button" data-slide="next">
+							<span class="carousel-control-next-icon"></span>
+						</a>
+					</div>
+				</div>
+
+				<!-- RIGHT: Product Details -->
+				<div class="col-lg-6">
+					<h3 id="product-name">Product Name</h3>
+					<div class="rating d-flex mb-2">
+						<p class="mr-4"><a href="#" class="mr-2" style="color:#FF0000;">5.0</a>
+							<span class="ion-ios-star-outline" style="color:#FF0000;"></span>
+							<span class="ion-ios-star-outline" style="color:#FF0000;"></span>
+							<span class="ion-ios-star-outline" style="color:#FF0000;"></span>
+							<span class="ion-ios-star-outline" style="color:#FF0000;"></span>
+						</p>
+						<p class="mr-4"><a href="#" class="mr-2" style="color:#000;">100 <span
+									style="color:#bbb;">Rating</span></a></p>
+						<p><a href="#" class="mr-2" style="color:#000;">500 <span style="color:#bbb;">Sold</span></a>
+						</p>
+					</div>
+					<p class="price"><span id="product-price">RM0.00</span></p>
+					<p id="product-desc">Product description goes here.</p>
+					<p id="product-stock">Stock info</p>
+
+					<div class="row mt-4 mb-3">
+						<div class="col-md-6 d-flex">
+							<button class="quantity-left-minus btn btn-secondary" type="button"><i
+									class="ion-ios-remove"></i></button>
+							<input type="text" id="quantity" class="form-control input-number mx-2" value="1" min="1"
+								max="100">
+							<button class="quantity-right-plus btn btn-secondary" type="button"><i
+									class="ion-ios-add"></i></button>
+						</div>
+					</div>
+					<a href="cart.html" class="btn btn-primary py-3 px-5"
+						style="background-color:#CA1826;border:none;">Add to Cart</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- Related Products -->
+	<section class="ftco-section" style="padding-top:0; margin-top:0;">
+		<div class="container">
+			<!-- Heading -->
+			<div class="row justify-content-center mb-3 pb-3">
+				<div class="col-md-12 text-center">
+					<span class="subheading" style="color: #CA1826;">Products</span>
+					<h2 class="mb-4">Related Products</h2>
+				</div>
+			</div>
+
+			<!-- Product Grid -->
+			<div class="row">
+				<!-- Product 1 -->
+				<div class="col-md-6 col-lg-3">
+					<div class="product text-center">
+						<a href="#" class="img-prod">
+							<img class="img-fluid" src="image/nutmege balm kuning.png" alt="Nutmeg Yellow Balm">
+							<div class="overlay"></div>
+						</a>
+						<div class="text py-3 pb-4 px-3">
+							<h3><a href="#">Nutmegé Golden Relief <br>Balm</a></h3>
+							<p class="price"><span class="mr-2 price-dc">RM10.00</span><span
+									class="price-sale">RM8.00</span></p>
+							<div class="bottom-area d-flex px-3 justify-content-center">
+								<a href="#" class="add-to-cart mx-1"><i class="ion-ios-cart"></i></a>
+								<a href="#" class="heart mx-1"><i class="ion-ios-heart"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Product 2 -->
+				<div class="col-md-6 col-lg-3">
+					<div class="product text-center">
+						<a href="#" class="img-prod">
+							<img class="img-fluid" src="image/nutmeg balm putih kecik.png"
+								alt="Nutmeg Small White Balm">
+							<div class="overlay"></div>
+						</a>
+						<div class="text py-3 pb-4 px-3">
+							<h3><a href="#">Nutmegé Ivory Balm<br> Mini</a></h3>
+							<p class="price"><span>RM8.00</span></p>
+							<div class="bottom-area d-flex px-3 justify-content-center">
+								<a href="#" class="add-to-cart mx-1"><i class="ion-ios-cart"></i></a>
+								<a href="#" class="heart mx-1"><i class="ion-ios-heart"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Product 3 -->
+				<div class="col-md-6 col-lg-3">
+					<div class="product text-center">
+						<a href="#" class="img-prod">
+							<img class="img-fluid" src="image/nutmege body oil.png" alt="Nutmege Body Oil">
+							<div class="overlay"></div>
+						</a>
+						<div class="text py-3 pb-4 px-3">
+							<h3><a href="#">Nutmegé Velvet Elixir Body <br>Oil</a></h3>
+							<p class="price"><span>RM25.00</span></p>
+							<div class="bottom-area d-flex px-3 justify-content-center">
+								<a href="#" class="add-to-cart mx-1"><i class="ion-ios-cart"></i></a>
+								<a href="#" class="heart mx-1"><i class="ion-ios-heart"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Product 4 -->
+				<div class="col-md-6 col-lg-3">
+					<div class="product text-center">
+						<a href="#" class="img-prod">
+							<img class="img-fluid" src="image/nutmege essential oil.png" alt="Nutmeg Essential Oil">
+							<div class="overlay"></div>
+						</a>
+						<div class="text py-3 pb-4 px-3">
+							<h3><a href="#">Nutmegé Pure Essential <br>Oil</a></h3>
+							<p class="price"><span>RM32.00</span></p>
+							<div class="bottom-area d-flex px-3 justify-content-center">
+								<a href="#" class="add-to-cart mx-1"><i class="ion-ios-cart"></i></a>
+								<a href="#" class="heart mx-1"><i class="ion-ios-heart"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+	<section class="ftco-section ftco-no-pt ftco-no-pb py-5 bg-light">
+		<div class="container py-4">
+			<div class="row d-flex justify-content-center py-5">
+				<div class="col-md-6">
+					<h2 style="font-size: 22px;" class="mb-0">Subcribe to our Newsletter</h2>
+					<span>Get e-mail updates about our latest shops and special offers</span>
+				</div>
+				<div class="col-md-6 d-flex align-items-center">
+					<form action="#" class="subscribe-form">
+						<div class="form-group d-flex">
+							<input type="text" class="form-control" placeholder="Enter email address">
+							<input type="submit" value="Subscribe" class="submit px-3">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="ftco-footer ftco-section">
+		<div class="container">
+			<div class="row">
+				<div class="mouse">
+					<a href="#" class="mouse-icon">
+						<div class="mouse-wheel"><span class="ion-ios-arrow-up"></span></div>
+					</a>
+				</div>
+			</div>
+			<div class="row mb-5">
+				<div class="col-md">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2">NUTMEGÉ</h2>
+						<p>Far away, beyond the fields of aromatic spices, nestled between the groves of Nutmegia,
+							grows the essence that nourishes your skin and soothes your senses.</p>
+						<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+							<li class="ftco-animate"><a
+									href="https://www.facebook.com/share/17wYYFsa8G/?mibextid=wwXIfr" target="_blank"
+									rel="noopener">
+									<span class="icon-facebook"></span>
+								</a>
+							<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="ftco-footer-widget mb-4 ml-md-5">
+						<h2 class="ftco-heading-2">Menu</h2>
+						<ul class="list-unstyled">
+							<li><a href="shop.html" class="py-2 d-block">Shop</a></li>
+							<li><a href="about.html" class="py-2 d-block">About</a></li>
+							<li><a href="contact.html" class="py-2 d-block">Contact Us</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2">Help</h2>
+						<div class="d-flex">
+							<ul class="list-unstyled mr-l-5 pr-l-3 mr-4">
+								<li><a href="#" class="py-2 d-block">Shipping Information</a></li>
+								<li><a href="#" class="py-2 d-block">Returns &amp; Exchange</a></li>
+								<li><a href="#" class="py-2 d-block">Terms &amp; Conditions</a></li>
+								<li><a href="#" class="py-2 d-block">Privacy Policy</a></li>
+							</ul>
+							<ul class="list-unstyled">
+								<li><a href="#" class="py-2 d-block">FAQs</a></li>
+								<li><a href="contact.html" class="py-2 d-block">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2">Have a Questions?</h2>
+						<div class="block-23 mb-3">
+							<ul>
+								<li><span class="icon icon-map-marker"></span><span class="text">Nutmegé Botanical
+										Estate, Padang Besar Selatan,
+										Perlis</span></li>
+								<li><a href="#"><span class="icon icon-phone"></span><span class="text">+60 12-345 6789
+											210</span></a></li>
+								<li><a href="#"><span class="icon icon-envelope"></span><span
+											class="text">nutmege@gmail.com</span></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+	</footer>
+
+	<!-- JS -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+	<script>
+		// Quantity buttons
+		$(document).ready(function () {
+			$('.quantity-right-plus').click(function (e) {
+				e.preventDefault();
+				var quantity = parseInt($('#quantity').val());
+				$('#quantity').val(quantity + 1);
+			});
+			$('.quantity-left-minus').click(function (e) {
+				e.preventDefault();
+				var quantity = parseInt($('#quantity').val());
+				if (quantity > 1) $('#quantity').val(quantity - 1);
+			});
+		});
+
+		// Product data
+		const products = {
+			"nutmege-body-oil": {
+				name: "Nutmegé™ Velvet Elixir Body Oil",
+				price: "RM25.00",
+				desc: "A luxurious body oil infused with premium nutmeg extract to deeply nourish the skin. Helps lock in moisture while leaving the skin smooth, radiant, and comfortably refreshed. Its lightweight texture absorbs quickly without a greasy feel. Perfect for daily use or after-shower care.",
+				stock: "15000 available",
+				images: [
+					"image/nutmege_body_oil_1.png",
+					"image/nutmege_body_oil_2.png",
+					"image/nutmege_body_oil_3.png"
+				]
+			},
+			"nutmeg-balm-putih-kecik": {
+				name: "Nutmegé Ivory Balm Mini",
+				price: "RM8.00",
+				desc: "A compact white balm infused with nutmeg extract to provide quick soothing relief. Formulated to calm skin discomfort while delivering gentle warmth. Ideal for on-the-go use and daily application. Leaves the skin feeling refreshed and comforted.",
+				stock: "12000 available",
+				images: [
+					"image/nutmeg balm putih kecik.png",
+					"image/nutmeg balm putih kecik hover.jpeg",
+				]
+			},
+			"nutmege-balm-putih-besar": {
+				name: "Nutmegé Ivory Balm Grande",
+				price: "RM15.00",
+				desc: "A larger-sized white balm enriched with premium nutmeg extract for long-lasting comfort. Designed to deeply soothe tired muscles and dry skin. Its smooth texture absorbs easily without greasiness. Perfect for regular household use.",
+				stock: "15000 available",
+				images: [
+					"image/nutmege balm putih besar.png",
+					"image/balm1.jpeg",
+					"image/balm3.jpeg",
+					"image/balm4.jpeg"
+
+				]
+			},
+			"nutmege-balm-kuning": {
+				name: "Nutmegé Golden Relief Balm",
+				price: "RM18.00",
+				desc: "A yellow balm crafted with concentrated nutmeg essence for enhanced warming relief. Helps ease body tension and promote relaxation. Suitable for massage and targeted application. Leaves a comforting aromatic finish.",
+				stock: "14000 available",
+				images: [
+					"image/nutmege balm kuning.png"
+				]
+			},
+			"Nutmeg-Scented-Wax-Melts": {
+				name: "Nutmegé Aromatic Wax Melts",
+				price: "RM20.00",
+				desc: "Scented wax melts infused with warm nutmeg notes to elevate any space. Slowly releases a comforting aroma that creates a calm atmosphere. Perfect for bedrooms, living rooms, or relaxation areas. Made from high-quality wax blends.",
+				stock: "20000 available",
+				images: [
+					"image/Nutmeg Scented Wax Melts.png "
+				]
+			},
+			"nutmeg-syampoo": {
+				name: "Nutmegé Revitalising Shampoo",
+				price: "RM25.00",
+				desc: "A nourishing shampoo formulated with nutmeg extract to cleanse and refresh the scalp. Helps improve hair softness while maintaining natural moisture balance. Suitable for daily use on all hair types. Leaves hair lightly scented and revitalised.",
+				stock: "18000 available",
+				images: [
+					"image/nutmeg syampoo.png"
+				]
+			},
+			"nutmege-body-wash": {
+				name: "Nutmegé Refreshing Body Wash",
+				price: "RM22.00",
+				desc: "A gentle body wash enriched with nutmeg essence for a refreshing cleanse. Helps remove impurities while keeping skin hydrated. Produces a rich lather with a warm aromatic scent. Ideal for everyday shower routines.",
+				stock: "17000 available",
+				images: [
+					"image/nutmege body wash.png",
+					"image/nutmege body wash hover.jpeg"
+				]
+			},
+			"nutmege-candied": {
+				name: "Nutmegé Candied Nutmeg Delight",
+				price: "RM12.00",
+				desc: "A sweet and aromatic candied nutmeg treat crafted using traditional inspiration. Offers a balanced blend of sweetness and spice. Perfect as a snack or gift item. Carefully prepared for consistent quality and flavour.",
+				stock: "25000 available",
+				images: [
+					"image/nutmege candied.png"
+				]
+			},
+			"nutmege-candle": {
+				name: "Nutmegé Signature Nutmeg Candle",
+				price: "RM30.00",
+				desc: "A premium scented candle infused with nutmeg aroma to enhance relaxation. Burns evenly to release a warm and cozy fragrance. Ideal for creating a calming ambience at home. Designed with a minimalist, elegant look.",
+				stock: "16000 available",
+				images: [
+					"image/nutmege candle.png"
+				]
+			},
+			"nutmege-essential-oil": {
+				name: "Nutmegé Pure Essential Oil",
+				price: "RM35.00",
+				desc: "A concentrated nutmeg essential oil suitable for aromatherapy use. Helps promote relaxation and mental clarity. Can be used in diffusers or blended with carrier oils. Carefully extracted to preserve natural aroma.",
+				stock: "13000 available",
+				images: [
+					"image/nutmege essential oil.png"
+				]
+			},
+			"nutmege-juice": {
+				name: "Nutmegé Nutmeg Infused Juice",
+				price: "RM10.00",
+				desc: "A refreshing beverage made with nutmeg-inspired flavour. Crafted to deliver a unique aromatic taste experience. Best served chilled for maximum refreshment. Suitable for casual and festive enjoyment.",
+				stock: "22000 available",
+				images: [
+					"image/nutmege juice.png"
+				]
+			},
+			"nutmege-diffuser": {
+				name: "Nutmegé Aroma Diffuser Blend",
+				price: "RM40.00",
+				desc: "A nutmeg-scented diffuser blend designed to freshen indoor spaces. Releases a consistent fragrance over time. Helps create a relaxing and welcoming environment. Ideal for homes and offices.",
+				stock: "14000 available",
+				images: [
+					"image/nutmege diffuser.png"
+				]
+			},
+			"nutmege-lotion": {
+				name: "Nutmegé Silkening Body Lotion",
+				price: "RM28.00",
+				desc: "A lightweight lotion enriched with nutmeg extract for daily moisturising. Helps keep skin soft, smooth, and nourished. Absorbs quickly without sticky residue. Suitable for all skin types.",
+				stock: "19000 available",
+				images: [
+					"image/nutmege lotion.png",
+					"image/lotion1.jpeg"
+				]
+			},
+			"nutmege-minyak-putih": {
+				name: "Nutmegé Classic White Oil",
+				price: "RM20.00",
+				desc: "A traditional white oil formulated with nutmeg essence for soothing relief. Commonly used for massage and relaxation. Provides gentle warmth to the skin. Ideal for personal care routines.",
+				stock: "21000 available",
+				images: [
+					"image/nutmege minyak putih.png"
+				]
+			},
+			"nutmege-oil-kuning": {
+				name: "Nutmegé Golden Herbal Oil",
+				price: "RM22.00",
+				desc: "A yellow herbal oil enriched with nutmeg extract for enhanced comfort. Helps ease muscle tension and fatigue. Smooth texture allows easy application. Suitable for daily or targeted use.",
+				stock: "20000 available",
+				images: [
+					"image/nutmege oil kuning.png"
+				]
+			},
+			"nutmege-scrub": {
+				name: "Nutmegé Exfoliating Body Scrub",
+				price: "RM26.00",
+				desc: "A body scrub infused with nutmeg particles to gently exfoliate skin. Helps remove dead skin cells while promoting smoothness. Leaves skin refreshed and lightly scented. Suitable for weekly use.",
+				stock: "17000 available",
+				images: [
+					"image/nutmege scrub.png"
+				]
+			},
+			"nutmege-pickle": {
+				name: "Nutmegé Spiced Dry Pickle",
+				price: "RM14.00",
+				desc: "A dry nutmeg pickle inspired by traditional flavours. Offers a bold, aromatic taste with balanced spices. Perfect as a side dish or flavour enhancer. Carefully prepared for consistent quality.",
+				stock: "24000 available",
+				images: [
+					"image/nutmege pickle.png"
+				]
+			},
+			"nutmege-soap": {
+				name: "Nutmegé Herbal Cleansing Soap",
+				price: "RM9.00",
+				desc: "A handcrafted soap enriched with nutmeg extract for gentle cleansing. Helps maintain skin freshness and comfort. Produces a creamy lather with warm aroma. Ideal for daily hand and body use.",
+				stock: "30000 available",
+				images: [
+					"image/nutmege soap.png",
+					"image/soap1.jpeg",
+					"image/soap3.jpeg",
+					"image/soap4.jpeg"
+				]
+			},
+			"nutmege-spread-jam": {
+				name: "Nutmegé Spiced Fruit Jam",
+				price: "RM16.00",
+				desc: "A nutmeg-inspired spread jam with a rich aromatic profile. Perfect for bread, pastries, or desserts. Smooth texture with balanced sweetness. Crafted for a unique gourmet experience.",
+				stock: "26000 available",
+				images: [
+					"image/nutmege spread jam.png"
+				]
+			},
+			"nutmege-tea": {
+				name: "Nutmegé Herbal Infusion Tea",
+				price: "RM18.00",
+				desc: "A calming tea blend infused with nutmeg flavour notes. Designed to promote relaxation and comfort. Enjoy hot or warm at any time of day. Carefully packed to preserve aroma.",
+				stock: "23000 available",
+				images: [
+					"image/nutmege tea.png",
+					"image/nutmege tea hover.jpeg"
+				]
+			},
+			"nutmege-ultrasonic": {
+				name: "Nutmegé Ultrasonic Aroma Diffuser",
+				price: "RM120.00",
+				desc: "A modern ultrasonic diffuser designed for nutmeg essential oils. Produces fine mist to evenly disperse fragrance. Enhances ambience while adding a decorative touch. Suitable for home and office use.",
+				stock: "11000 available",
+				images: [
+					"image/nutmege ultrasonic.png"
+
+				]
+			},
+			"nutmeg-lip-balm": {
+				name: "Nutmegé Nourishing Lip Balm",
+				price: "RM12.00",
+				desc: "A hydrating lip balm infused with nutmeg essence for daily care. Helps protect lips from dryness while providing comfort. Smooth application with a subtle aroma. Suitable for all ages.",
+				stock: "18000 available",
+				images: [
+					"image/nutmeglipbalm.png"
+				]
+			}
+		}
+
+
+		// Get ID from URL
+		const params = new URLSearchParams(window.location.search);
+		const id = params.get('id');
+
+		// Populate product
+		if (products[id]) {
+			const p = products[id];
+			document.getElementById('product-name').innerText = p.name;
+			document.getElementById('product-price').innerText = p.price;
+			document.getElementById('product-desc').innerText = p.desc;
+			document.getElementById('product-stock').innerText = p.stock;
+
+			const carouselIndicators = document.getElementById('carousel-indicators');
+			const carouselInner = document.getElementById('carousel-inner');
+			carouselIndicators.innerHTML = '';
+			carouselInner.innerHTML = '';
+
+			p.images.forEach((img, index) => {
+				// Indicators
+				const li = document.createElement('li');
+				li.setAttribute('data-target', '#productSlider');
+				li.setAttribute('data-slide-to', index);
+				if (index === 0) li.classList.add('active');
+				carouselIndicators.appendChild(li);
+
+				// Slides
+				const div = document.createElement('div');
+				div.classList.add('carousel-item');
+				if (index === 0) div.classList.add('active');
+				div.innerHTML = `<img src="${img}" class="d-block w-100 product-img" alt="${p.name}">`;
+				carouselInner.appendChild(div);
+			});
+		} else {
+			document.getElementById('product-name').innerText = "Product not found";
+			document.getElementById('product-desc').innerText = "";
+			document.getElementById('product-price').innerText = "";
+			document.getElementById('product-stock').innerText = "";
+		}
+	</script>
+</body>
+
+</html>
